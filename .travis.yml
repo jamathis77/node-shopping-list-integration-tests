@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ztRo931c47cIIqJXsTzflJ5/BhaHIUQWy6TFjk4zAJkcltqorNIUxLIuDA+JcWI13rCCdFb9PgNyN2bT68N+jfzalq9Tp+au0Jw4LIGwQYZJdgojP9D36ImWkOQgI/e47UO7vn7Z2XwKjqxLnVazO9KG/yoD+6nhdToaJUNFYQD4kXv5CmB9WCD5d11KRUzGupBmIHXvKqiPz5EBO47qr2lw4bCEsQmmbggF6pkPmfTI/SQrSoRWFsLll/pUtJrryGUeTXXrwH3gPBHL1qF3tvcPqqXxIhpEW6qK9qTuZ9j6Nu0pDAP0OseuEcnap32x3S9aO+6JqXYI/G9JZZecZYS77T9HPbUyHr4YPTJjSIxTgwTj7nENWCJ15IIo/7bQESSIpaJhdJZ5aj3MaXIUDb2+MW1U/6ucw//FZDjTbxvhhPLEHzrSOdkNBgTpAn+meT1vxMXZly4JORvwHNNf44TGgTmQBGWXoxVN5oPphA9Mmp9ps2DTWjv8ngRmmGOgO15TzPsUluqtR4ptZpHfZ/UVo42iZsiW6o8fDZzsYC1URJQkrZ39w927D/vhg4BE7ybtQjMJ19pgiLRLqsVwaqVUm/JV28gHqlx1DCe7qn7TPaeAUbgy8H0jglOThTLLsZP/r3ikjd5dW3HO8doiP/+bWNnBFLkv4kOx2zRgYqM=
+  app: agile-dawn-18470
+  on:
+    repo: jamathis77/node-shopping-list-integration-tests
